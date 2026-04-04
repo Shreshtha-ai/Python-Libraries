@@ -39,7 +39,7 @@ print("Full array:",full)
 random = np.random.random((2,2))
 print("Random array:",random)
 
-sequence = np.arange(1,10,2)
+sequence = np.arange(1,10,2) # it prints array from 1 to 10 with a step of 2
 print("Sequence array:",sequence)
 
 # vector, matrix,tensor
@@ -79,7 +79,7 @@ print("Flattened array:",flattened)
 raveled = reshaped.ravel() # returns a view of the original array
 print("Raveled array:",raveled)
 
-transpose = reshaped.T
+transpose = reshaped.T # it swaps the rows and columns
 print("Transpose array:",transpose)
 
 
